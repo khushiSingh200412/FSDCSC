@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+
+}
+.container{
+    background-color: aquamarine;
+    height: 300px;
+    border: 2px solid red;
+    width: 100%;
+    /* margin: 40px 20px 10px;
+    padding-top: 50px;
+    padding-left: 300px; */
+    /* box-sizing: border-box; */
+     /* grid pe hum row aur column pe kamm karte hai */
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.Child1{
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:1;
+    grid-column-end: 13;
+    color: white;
+    height: 70px;
+    
+}
+/* .Child1,.Child2,.Child3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 20px; */
+    /* display: inline; */
+/* }
+.Child1{
+    background-color: brown;
+}
+.Child2{
+    background-color: blueviolet;
+}
+.Child3{
+    background: yellowgreen;
+} */
+/* .Child1{
+    background-color: brown;
+    height: 150px;
+    border: 1px dotted yellow;
+    width: 150px;
+    color: chartreuse;
+    padding-top: 100px;
+    padding-left: 100px;
+    border-radius: 50%;
+   
+} */
