@@ -1,0 +1,15 @@
+#disp{
+  background-color: brown;
+  color:blueviolet;
+  border: 10px solid green;
+  border-radius: 10px;
+}
+h1{
+  background-color: aqua;
+  color: blueviolet;
+  font-size:20px ;
+}
+h2{
+  background-color: blueviolet;
+  color: black;
+}
