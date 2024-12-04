@@ -52,7 +52,7 @@ const movies = [
     id: 7,
     image:
       "https://rukminim2.flixcart.com/image/612/612/kydb3ww0/movie/i/m/f/2022-blu-ray-excel-productions-audio-visuals-pvt-ltd-english-the-original-imagambwyhzhj3ys.jpeg?q=70",
-    title: "Blu-ray",
+    title: "Brlu-ray",
     language: "english",
     cost: 1178,
   },
